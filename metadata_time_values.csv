@@ -1,0 +1,58 @@
+The data file mainly contains various features (such as time of day when maximum value is reached etc.) extracted from generalised additive model fits for the diurnal trends of different traits and variables.,,
+,,
+column name,unit,description
+Spp,,species code
+maxA_time_gam,hour,time of day when maximum photosynthetic rate is reached based on the generalised additive model fit for the species. A value of 11.5 hour corresponds to 11:30 am.
+maxE_time_gam,hour,time of day when maximum transpiration rate is reached based on the generalised additive model fit for the species. A value of 11.5 hour corresponds to 11:30 am.
+maxgs_time_gam,hour,time of day when maximum stomatal conductance is reached based on the generalised additive model fit for the species. A value of 11.5 hour corresponds to 11:30 am.
+minPsixylem_time_gam,hour,time of day when minimum stem xylem water potential is reached based on the generalised additive model fit for the species. A value of 11.5 hour corresponds to 11:30 am.
+minPsileaf_time_gam,hour,time of day when minimum leaf water potential is reached based on the generalised additive model fit for the species. A value of 11.5 hour corresponds to 11:30 am.
+Cs,kg m-3 s-1,sapwood capacitance
+Tau,minute,hydraulic time constant
+relPsi_xylem_11,unitless,stem xylem water potential value at 11 o'clock relative to the maximum absolute value
+relPsi_leaf_11,unitless,leaf water potential value at 11 o'clock relative to the maximum absolute value
+relAarea_11,unitless,photosynthetic rate value at 11 o'clock relative to the maximum absolute value
+relgsw_11,unitless,stomatal conductance value at 11 o'clock relative to the maximum absolute value
+relWUE_11,unitless,water use efficiency value at 11 o'clock relative to the maximum absolute value
+relE_11,unitless,transpiration rate value at 11 o'clock relative to the maximum absolute value
+relVPDleaf_11,unitless,leaf-to-air vapour pressure deficit value at 11 o'clock relative to the maximum absolute value
+absPsi_xylem_11,MPa,stem xylem water potential value at 11 o'clock
+absPsi_leaf_11,MPa,leaf water potential value at 11 o'clock
+absAarea_11,micromol m-2 s-1,photosynthetic rate value at 11 o'clock
+absgsw_11,mol m-2 s-1,stomatal conductance value at 11 o'clock
+absWUE_11,ppm,water use efficiency value at 11 o'clock
+absE_11,mol m-2 s-1,transpiration rate value at 11 o'clock
+absVPDleaf_11,kPa,leaf-to-air vapour pressure deficit value at 11 o'clock
+relPsi_xylem_12,unitless,stem xylem water potential value at 12 o'clock relative to the maximum absolute value
+relPsi_leaf_12,unitless,leaf water potential value at 12 o'clock relative to the maximum absolute value
+relAarea_12,unitless,photosynthetic rate value at 12 o'clock relative to the maximum absolute value
+relgsw_12,unitless,stomatal conductance value at 12 o'clock relative to the maximum absolute value
+relWUE_12,unitless,water use efficiency value at 12 o'clock relative to the maximum absolute value
+relE_12,unitless,transpiration rate value at 12 o'clock relative to the maximum absolute value
+relVPDleaf_12,unitless,leaf-to-air vapour pressure deficit value at 12 o'clock relative to the maximum absolute value
+absPsi_xylem_12,Mpa,stem xylem water potential value at 12 o'clock
+absPsi_leaf_12,Mpa,leaf water potential value at 12 o'clock
+absAarea_12,?mol m-2 s-1,photosynthetic rate value at 12 o'clock
+absgsw_12,mol m-2 s-1,stomatal conductance value at 12 o'clock
+absWUE_12,ppm,water use efficiency value at 12 o'clock
+absE_12,mol m-2 s-1,transpiration rate value at 12 o'clock
+absVPDleaf_12,kPa,leaf-to-air vapour pressure deficit value at 12 o'clock
+relPsi_xylem_13,unitless,stem xylem water potential value at 13 o'clock relative to the maximum absolute value
+relPsi_leaf_13,unitless,leaf water potential value at 13 o'clock relative to the maximum absolute value
+relAarea_13,unitless,photosynthetic rate value at 13 o'clock relative to the maximum absolute value
+relgsw_13,unitless,stomatal conductance value at 13 o'clock relative to the maximum absolute value
+relWUE_13,unitless,water use efficiency value at 13 o'clock relative to the maximum absolute value
+relE_13,unitless,transpiration rate value at 13 o'clock relative to the maximum absolute value
+relVPDleaf_13,unitless,leaf-to-air vapour pressure deficit value at 13 o'clock relative to the maximum absolute value
+absPsi_xylem_13,Mpa,stem xylem water potential value at 13 o'clock
+absPsi_leaf_13,Mpa,leaf water potential value at 13 o'clock
+absAarea_13,?mol m-2 s-1,photosynthetic rate value at 13 o'clock
+absgsw_13,mol m-2 s-1,stomatal conductance value at 13 o'clock
+absWUE_13,ppm,water use efficiency value at 13 o'clock
+absE_13,mol m-2 s-1,transpiration rate value at 13 o'clock
+absVPDleaf_13,kPa,leaf-to-air vapour pressure deficit value at 13 o'clock
+iWUE,ppm,mean intrinsic water use efficiency calculated using all the values through the days
+Psi_diff_var,MPa,variance of the difference between stem xylem and leaf water potential values
+Psi_diff_mean,MPa,mean of the difference between stem xylem and leaf water potential values
+gsw_VPD1,mol m-2 s-1,stomatal conductance to water at vapour pressure deficit of 1 kPa expected based on the generalised additive model fit
+gsw_VPD1.01,mol m-2 s-1,stomatal conductance to water at vapour pressure deficit of 1.01 kPa expected based on the generalised additive model fit

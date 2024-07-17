@@ -1,0 +1,26 @@
+The data file contains the trait and variable values throughout the day as measured using LI-6800 (Licor) or Scholander's pressure chamber.,,
+,,
+column name,unit,description
+Spp,,species code
+Date,,date of measurement
+Day,,day (numbered 1 through 6)
+Rep,,"number of measurement on the day for the species starting with 0 for predawn measurements followed by 1, 2, 3, … corresponding to 1st, 2nd, 3rd, … measurement after sunrise. For each Rep (measurement) a new set of sun-exposed leaves was chosen."
+Psi_leaf,MPa,leaf water potential
+Psi_xylem,MPa,stem xylem water potential
+hhmmss,hour:minute:second,"time of day; reported in hours, minutes and seconds"
+E,mol m-2 s-1,transpiration rate
+A,micromol m-2 s-1,photosynthetic rate
+Ca,ppm,ambient CO2 concentration
+Ci,ppm,leaf-internal CO2 concentration
+gsw,mol m-2 s-1,stomatal conductance to water
+RHcham,%,relative humidity in the leaf chamber
+VPDleaf,kPa,leaf-to-air vapour pressure deficit at leaf temperature
+Tair,°C,air temperature within the leaf chamber
+Tleaf,°C,leaf temperature measured by a thermocouple
+Q,micromol m-2 s-1,light within the leaf chamber
+hhmmss_WithoutDaylightSavings,,"time of day without incorporating daylight savings; reported in hours, minutes and seconds. The time is corrected and reported here only for the days when daylight savings were on for the region."
+CiCa,unitless,the ratio of leaf-internal to ambient CO2 concentration
+Psi_diff,MPa,difference between stem xylem and leaf water potential values
+hhmmss_int,hour,time of day after correcting for daylength across the days. A value of 11.5 hour corresponds to 11:30 am.
+WUE,ppm,water use efficiency calculated as the ratio of A to E
+iWUE,ppm,intrinsic water use efficiency calculated as the ratio of A to gsw

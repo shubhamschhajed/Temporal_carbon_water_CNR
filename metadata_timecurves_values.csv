@@ -1,0 +1,20 @@
+The data file contains predictions for the trait and variable values throughout the day based on the generalised additive model fits for their diurnal patterns.,,
+,,
+column name,unit,description
+Spp,,species code
+time,hour,time of day. A value of 11.5 hour corresponds to 11:30 am.
+Psi_xylem,unitless,stem xylem water potential value relative to the maximum absolute value
+Psi_leaf,unitless,leaf water potential value relative to the maximum absolute value
+A,unitless,photosynthetic rate value relative to the maximum absolute value
+gsw,unitless,stomatal conductance value relative to the maximum absolute value
+WUE,unitless,water use efficiency value relative to the maximum absolute value
+E,unitless,transpiration rate value relative to the maximum absolute value
+VPDleaf,unitless,leaf-to-air vapour pressure deficit value relative to the maximum absolute value
+Psi_xylem_abs,MPa,stem xylem water potential
+Psi_leaf_abs,MPa,leaf water potential
+A_abs,micromol m-2 s-1,photosynthetic rate
+gsw_abs,mol m-2 s-1,stomatal conductance
+WUE_abs,ppm,water use efficiency
+E_abs,mol m-2 s-1,transpiration rate
+VPDleaf_abs,kPa,leaf-to-air vapour pressure deficit
+Psi_diff,MPa,difference between stem xylem and leaf water potential values
